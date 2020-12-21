@@ -36,3 +36,33 @@
     transform: rotate(360deg);
   }
 }
+
+.score {
+  display: flex;
+  align-items: center;
+}
+
+.score div {
+  display: flex;
+  padding: 0px;
+}
+
+.score div ion-icon {
+  margin: 0 2px;
+  padding: 0px;
+  color:  #00A699;
+  border-color: #00A699;
+}
+
+.score p{
+  padding: 0px;
+  margin: 0px;
+  font-weight: 300;
+  margin-left: 12px;
+}
+
+.card-detail div h2 {
+   color: #767676;
+   font-weight: 400;
+   font-size: 1.3em;
+}
